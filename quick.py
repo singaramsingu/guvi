@@ -1,7 +1,7 @@
-size=int(input())
-l=raw_input().split()
+si=int(input())
+li=raw_input().split()
 list1=[]
-for i in l:
+for i in li:
     list1.append(int(i))
 list1.sort()
 for i in list1:
